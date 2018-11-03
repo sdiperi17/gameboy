@@ -1,0 +1,86 @@
+.game-boy {
+    border: 2px solid rgb(179, 0, 89);
+    width: 300px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+    margin: 0 auto;
+    background: purple;
+}
+
+.screen-box {
+    background: lightgray;
+    border: 10px solid rgba(0, 0, 0, 0.6);
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.btns-container {
+    border: 0.5px solid black;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 1px black;
+}
+
+.cross {
+    /* border: 1px solid black; */
+    width: 125px;
+    height: 200px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+#horizontal-black {
+    background: black;
+    width: 75px;
+    height: 25px;
+    position: absolute;
+    top: 37px;
+    transform: translate(0, -50%);
+    box-shadow: 3px 3px 3px black;
+}
+
+#vertical-black {
+    background: black;
+    width: 25px;
+    height: 75px;
+    position: absolute;
+    left: 37px;
+    transform: translate(-50%, 0);
+    box-shadow: 3px 3px 3px black;
+}
+
+.round-btns-container {
+    /* border: 1px solid black; */
+    width: 125px;
+    height: 200px;
+}
+
+.round-btn1 {
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 65px;
+    box-shadow: 3px 3px 3px black;
+}
+.round-btn2 {
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 50px;
+    box-shadow: 3px 3px 3px black;
+}
